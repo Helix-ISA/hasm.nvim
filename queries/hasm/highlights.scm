@@ -1,6 +1,7 @@
 (rrr_opcode) @keyword
 (rri_opcode) @keyword
 (rr_opcode) @keyword
+(j_opcode) @keyword
 (shift_immediate_opcode) @keyword
 (load_opcode) @keyword
 (store_opcode) @keyword
