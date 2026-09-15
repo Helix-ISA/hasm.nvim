@@ -16,7 +16,10 @@
 (label
   name: (identifier) @label)
 
-(instruction
+(branch_instruction
+  target: (identifier) @function)
+
+(j_instruction
   target: (identifier) @function)
 
 (comment) @comment
