@@ -16,6 +16,9 @@
 (label
   name: (identifier) @label)
 
+(branch_instruction
+  target: (identifier) @function)
+
 (comment) @comment
 
 [
