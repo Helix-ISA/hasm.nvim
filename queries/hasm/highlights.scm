@@ -1,8 +1,8 @@
-(r_type_mnemonic) @keyword
-(i_type_mnemonic) @keyword
-(s_type_mnemonic) @keyword
-(b_type_mnemonic) @keyword
-(j_type_mnemonic) @keyword
+(r_format_mnemonic) @keyword
+(i_format_mnemonic) @keyword
+(s_format_mnemonic) @keyword
+(b_format_mnemonic) @keyword
+(j_format_mnemonic) @keyword
 
 (register) @variable
 (number) @number
@@ -11,10 +11,10 @@
   name: (identifier) @label)
 
 (b_type_format
-  target: (identifier) @function)
+  symbol: (identifier) @function)
 
 (j_type_format
-  target: (identifier) @function)
+  symbol: (identifier) @function)
 
 (comment) @comment
 
